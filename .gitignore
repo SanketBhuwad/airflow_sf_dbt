@@ -6,27 +6,3 @@ airflow-*.out
 airflow-*.err
 airflow-*.pid
 /opt/airflow/logs/
-
-# Docker
-.dockerignore
-**/*.log
-docker-compose.override.yml
-
-# Python/ETL artifacts
-__pycache__/
-*.pyc
-.env
-.venv/
-*.db
-
-# Data (never commit)
-data/
-*.csv
-*.parquet
-landing/
-formatted/
-
-# IDE/Editor
-.vscode/
-.idea/
-*.swp
