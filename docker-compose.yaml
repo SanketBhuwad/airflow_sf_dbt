@@ -65,7 +65,7 @@ x-airflow-common:
     - ./sql_script:/opt/airflow/sql_script
     - ./data:/opt/airflow/data
     - ./python_script:/opt/airflow/python_script
-    - ./demo_dbt:/opt/airflow/demo_dbt
+    - ./dbt:/opt/airflow/dbt
     - ./packages:/opt/airflow/packages
     - ./app:/opt/airflow/app
   user: "${AIRFLOW_UID:-50000}:0"
